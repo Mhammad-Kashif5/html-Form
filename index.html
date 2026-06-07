@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form in HTML</h1>
+    <form action="">
+    <label for="fname">Full Name:</label><br>
+    <input type="text" name="fname" id="fname" placeholder="Enter your Full Name" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email" placeholder="Enter your Email Address" required><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" name="pwd" id="pwd" maxlength="6" placeholder="Enter 6 character " required><br>
+    <label for="age">Age:</label><br>
+    <input type="number" name="age" id="age" placeholder="Enter your Age" required><br>
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" name="dob" id="dob" required ><br>
+    <!-- Radio buttons -->
+     <b>Gender:</b><br>
+     <label for="male">
+         <input type="radio" name="Gender" id="male">Male
+     </label><br>
+     <label for="female">
+     <input type="radio" name="Gender" id="female">Female
+    </label><br>
+    <!-- Checkboxes -->
+    <b>Skills:</b><br>
+    <label for="skill">HTML
+        <input type="checkbox" id="skill">
+    </label>
+    <label for="skills">CSS
+        <input type="checkbox"  id="skills">
+    </label>
+    <label for="skils">JavaScript
+        <input type="checkbox"  id="skils">
+    </label><br>
+    <!-- Drowpdown -->
+     <strong>Country:</strong><br>
+     <select >
+        <option value="Pak">Pakistan</option>
+        <option value="us">USA</option>
+        <option value="UAE">UAE</option>
+        <option value="ind">India</option>
+        <option value="china">China</option>
+        <option value="Afg">Afghanistan</option>
+     </select><br>
+     <b>Messege:</b><br>
+     <textarea placeholder="Enter your Messege"></textarea><br>
+     <input type="submit">
+     <input type="reset">
+ </form>
+    
+</body>
+</html>
